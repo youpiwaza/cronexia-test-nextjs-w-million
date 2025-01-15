@@ -1,6 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -20,6 +23,12 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+
+        <Stack spacing={2} direction="row">
+          <Button variant="text">Text</Button>
+          <Button variant="contained">Contained</Button>
+          <Button variant="outlined">Outlined</Button>
+        </Stack>
 
         <div className={styles.ctas}>
           <a

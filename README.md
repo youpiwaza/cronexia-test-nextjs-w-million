@@ -29,6 +29,8 @@ cd project/
 bun dev
 ```
 
+---
+
 ## Installation de Materials
 
 ~~[yay](https://github.com/material-components/material-web/blob/main/docs/quick-start.md)~~
@@ -39,5 +41,17 @@ bun dev
 # npm install @material/web
 ## bun i @material/web
 
-bun i @mui/material @mui/material-nextjs @emotion/cache
+# Manquait @emotion/react @emotion/styled
+bun add @mui/material @mui/material-nextjs @emotion/cache @emotion/react @emotion/styled
 ```
+
+Ajout de [boutons](https://mui.com/material-ui/react-button/) a la page de base. isOk
+
+---
+
+## Formulaires
+
+Templates existants mais bon wala
+
+[yay](https://mui.com/material-ui/getting-started/templates/#free-templates)
+
