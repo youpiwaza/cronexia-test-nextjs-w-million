@@ -1,2 +1,3 @@
-# cronexia-test-react-w-million
-yay
+# Cronexia / Test Next.js / avec Million / & Composants
+
+Tout est dit
